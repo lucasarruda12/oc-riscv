@@ -1,0 +1,34 @@
+# vsim work.top "+TEST=MAX" "+TERMINATION=instruction_count" "+INSTRUCTION_COUNT=4" 
+# Start time: 15:44:46 on Oct 17,2026
+# Loading sv_std.std
+# Loading work.risc_v_32_i_pkg
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.InstructionMemory
+# Loading work.ProcessorCore_sv_unit
+# Loading work.ProcessorCore
+# Loading work.RegisterFile
+# Loading work.ImmediateSignExtend_sv_unit
+# Loading work.ImmediateSignExtend
+# Loading work.CoreControlUnit_sv_unit
+# Loading work.CoreControlUnit
+# Loading work.ArithmeticLogicUnit_sv_unit
+# Loading work.ArithmeticLogicUnit
+# Loading work.ComparatorUnit_sv_unit
+# Loading work.ComparatorUnit
+# Loading work.LoadStoreUnit_sv_unit
+# Loading work.LoadAndStoreUnit
+# Loading work.DataMemory
+add wave -r /top/PrCore/*
+run -all
+# RETIRE #1 PC 00000000 INSTRUCTION 00500093 REG_WRITE 1 RD 1 VALUE 00000005
+# RETIRE #2 PC 00000004 INSTRUCTION 00c00113 REG_WRITE 1 RD 2 VALUE 0000000c
+# RETIRE #3 PC 00000008 INSTRUCTION 002081b3 REG_WRITE 1 RD 3 VALUE 00000011
+# RETIRE #4 PC 0000000c INSTRUCTION 40208233 REG_WRITE 1 RD 4 VALUE fffffff9
+# MAX TEST: completion detected after 0 cycles
+# MAX TEST: PASS
+# 1
+# Break in Module top at /home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/tb/top.sv line 245
+add wave -position 20  sim:/top/test_name
+# End time: 15:46:24 on Oct 17,2026, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 0

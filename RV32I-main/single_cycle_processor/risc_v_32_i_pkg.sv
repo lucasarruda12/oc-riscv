@@ -35,7 +35,8 @@ typedef enum logic [ALU_SEL_LEN-1:0] {
     OP_SLL,
     OP_SRL,
     OP_SRA,
-    OP_UNKNOWN
+    OP_UNKNOWN,
+    OP_MAX
 } alu_select_e;
 
 parameter BRANCH_SEL_LEN = 3;

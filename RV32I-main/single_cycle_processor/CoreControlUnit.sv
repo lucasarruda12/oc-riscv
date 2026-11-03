@@ -39,11 +39,41 @@ module CoreControlUnit #(parameter XLEN = 32)
     localparam OP_U_LUI_TYPE    = 7'b0110111;
     localparam OP_U_AUIPC_TYPE  = 7'b0010111;
     localparam OP_J_TYPE        = 7'b1101111;
+    // Isso aqui  novo
+    localparam OP_CUSTOM_TYPE   = 7'b0001011;
 
     always_comb
     begin
 
         unique case(op_code_i)
+            OP_CUSTOM_TYPE:
+            begin
+              pc_mux_sel_o = 1'b0;
+              reg_write_enable_o = 1'b1;
+              imm_select_o = IMM_UNKNOWN_TYPE;
+              execute_port_a_sel_o = 1'b1; // rs1
+
+              unique case(funct3_i)
+                  3'b000:
+                  begin
+                      alu_op_sel_o = OP_MAX;
+                      comp_op_sel_o = OP_BUNKNOWN;
+                      execute_port_b_sel_o = 1'b1; // rs2
+                      reg_write_data_sel_o = RD_MUX_ALU;
+                  end
+                  default:
+                  begin
+                      alu_op_sel_o = OP_UNKNOWN;
+                      comp_op_sel_o = OP_BUNKNOWN;
+                      execute_port_b_sel_o = 1'b1;
+                      reg_write_data_sel_o = RD_MUX_ALU;
+                  end
+              endcase
+
+              load_store_type_o = LS_N_A;
+              data_memory_write_enable_o = 1'b0;
+            end
+
             OP_R_TYPE:
             begin
                 pc_mux_sel_o = 1'b0;
