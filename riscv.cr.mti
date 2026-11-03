@@ -1,0 +1,92 @@
+{/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/tb/top.sv} {1 {vlog -work work -sv -stats=none {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/tb/top.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package top_sv_unit
+-- Importing package risc_v_32_i_pkg
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/RegisterFile.sv} {1 {vlog -work work -sv -stats=none {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/RegisterFile.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ProcessorCore.sv} {1 {vlog -work work -sv -stats=none {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ProcessorCore.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package ProcessorCore_sv_unit
+-- Importing package risc_v_32_i_pkg
+-- Compiling module ProcessorCore
+
+Top level modules:
+	ProcessorCore
+
+} {} {}} {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/LoadStoreUnit.sv} {1 {vlog -work work -sv -stats=none {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/LoadStoreUnit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package LoadStoreUnit_sv_unit
+-- Importing package risc_v_32_i_pkg
+-- Compiling module LoadAndStoreUnit
+
+Top level modules:
+	LoadAndStoreUnit
+
+} {} {}} {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/CoreControlUnit.sv} {1 {vlog -work work -sv -stats=none {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/CoreControlUnit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package CoreControlUnit_sv_unit
+-- Importing package risc_v_32_i_pkg
+-- Compiling module CoreControlUnit
+
+Top level modules:
+	CoreControlUnit
+
+} {} {}} {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/InstructionMemory.sv} {1 {vlog -work work -sv -stats=none {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/InstructionMemory.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstructionMemory
+
+Top level modules:
+	InstructionMemory
+
+} {} {}} {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/DataMemory.sv} {1 {vlog -work work -sv -stats=none {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/DataMemory.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/risc_v_32_i_pkg.sv} {1 {vlog -work work -sv -stats=none {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/risc_v_32_i_pkg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package risc_v_32_i_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ImmediateSignExtend.sv} {1 {vlog -work work -sv -stats=none {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ImmediateSignExtend.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package ImmediateSignExtend_sv_unit
+-- Importing package risc_v_32_i_pkg
+-- Compiling module ImmediateSignExtend
+
+Top level modules:
+	ImmediateSignExtend
+
+} {} {}} {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ComparatorUnit.sv} {1 {vlog -work work -sv -stats=none {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ComparatorUnit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package ComparatorUnit_sv_unit
+-- Importing package risc_v_32_i_pkg
+-- Compiling module ComparatorUnit
+
+Top level modules:
+	ComparatorUnit
+
+} {} {}} {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ArithmeticLogicUnit.sv} {1 {vlog -work work -sv -stats=none {/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ArithmeticLogicUnit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package ArithmeticLogicUnit_sv_unit
+-- Importing package risc_v_32_i_pkg
+-- Compiling module ArithmeticLogicUnit
+
+Top level modules:
+	ArithmeticLogicUnit
+
+} {} {}}

@@ -1,0 +1,12 @@
+# Compile of risc_v_32_i_pkg.sv was successful.
+# Compile of ArithmeticLogicUnit.sv was successful.
+# Compile of ComparatorUnit.sv was successful.
+# Compile of CoreControlUnit.sv was successful.
+# Compile of DataMemory.sv was successful.
+# Compile of ImmediateSignExtend.sv was successful.
+# Compile of InstructionMemory.sv was successful.
+# Compile of LoadStoreUnit.sv was successful.
+# Compile of ProcessorCore.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# 9 compiles, 0 failed with no errors.
+# Compile of top.sv was successful.
