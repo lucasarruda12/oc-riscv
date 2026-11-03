@@ -61,6 +61,13 @@ module CoreControlUnit #(parameter XLEN = 32)
                       execute_port_b_sel_o = 1'b1; // rs2
                       reg_write_data_sel_o = RD_MUX_ALU;
                   end
+                  3'b001:
+                  begin
+                      alu_op_sel_o = OP_SIGN;
+                      comp_op_sel_o = OP_BUNKNOWN;
+                      execute_port_b_sel_o = 1'b0; // rs2
+                      reg_write_data_sel_o = RD_MUX_ALU;
+                  end
                   default:
                   begin
                       alu_op_sel_o = OP_UNKNOWN;

@@ -13,3 +13,6 @@ and x12, x1, x2
 max x13, x1, x2
 max x14, x4, x1
 max x15, x5, x2
+sign x16, x10
+sign x17, x4
+sign x18, x14

@@ -24,6 +24,7 @@ module ArithmeticLogicUnit #(parameter XLEN = 32, parameter REG_ADDR_WIDTH = 5)
     begin
         unique case(alu_op_sel_i)
             OP_MAX:     alu_o = ($signed(alu_port_a_i) > $signed(alu_port_b_i)) ? alu_port_a_i : alu_port_b_i;
+            OP_SIGN:    alu_o = ($signed(alu_port_a_i) < 0) ? 32'hffffffff : (($signed(alu_port_a_i) > 0) ? 32'h00000001 : 32'h00000000);
             OP_ADD:     alu_o =         alu_port_a_i  +   alu_port_b_i;
             OP_SUB:     alu_o =         alu_port_a_i  -   alu_port_b_i;
             OP_AND:     alu_o =         alu_port_a_i  &   alu_port_b_i;
