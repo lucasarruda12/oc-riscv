@@ -1,0 +1,10 @@
+00300093  // addi x1, x0, 3      -> x1 = 3
+00400113  // addi x2, x0, 4      -> x2 = 4
+00A00193  // addi x3, x0, 10     -> x3 = 10
+0020A18B  // mac  x3, x1, x2     -> x3 = 10 + 3*4  = 22
+0020A18B  // mac  x3, x1, x2     -> x3 = 22 + 3*4  = 34  (acumula)
+FFE00293  // addi x5, x0, -2     -> x5 = -2
+0022A18B  // mac  x3, x5, x2     -> x3 = 34 + -2*4 = 26  (negativo)
+0020A00B  // mac  x0, x1, x2     -> x0 continua 0
+00000313  // addi x6, x0, 0      -> x6 = 0  (prova que x0 continua 0)
+0010A08B  // mac  x1, x1, x1     -> x1 = 3 + 3*3   = 12  (mesmo reg. nos 3 campos)

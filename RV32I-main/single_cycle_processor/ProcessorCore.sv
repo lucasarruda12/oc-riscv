@@ -45,6 +45,9 @@ module ProcessorCore
     logic [31:0]reg_source_1;
     logic [31:0]reg_source_2;
 
+    logic [31:0]reg_source_3;
+    logic [31:0]mac_result;
+
     logic [31:0]alu_port_a;
     logic [31:0]alu_port_b;
     logic [31:0]comp_port_a;
@@ -74,6 +77,8 @@ module ProcessorCore
     assign pc_next = PC + 32'd4;
     assign pc_update = pc_mux_sel ? alu_output : pc_next;
 
+    assign mac_result = reg_source_3 + (reg_source_1 * reg_source_2);
+
     always_ff @(posedge clk_i, posedge reset_i)
     begin
         if (reset_i)
@@ -93,12 +98,14 @@ module ProcessorCore
     (
         .read_data_1_o      (reg_source_1),
         .read_data_2_o      (reg_source_2),
+        .read_data_3_o      (reg_source_3),
         .clk_i              (clk_i),
         .write_enable_i     (reg_write_enable),
         .write_data_i       (reg_data),
         .write_address_i    (instruction[11:7]),
         .read_address_1_i   (instruction[19:15]),
-        .read_address_2_i   (instruction[24:20])
+        .read_address_2_i   (instruction[24:20]),
+        .read_address_3_i   (instruction[11:7])
     );
 
     ImmediateSignExtend #(.XLEN(XLEN)) ise
@@ -170,6 +177,7 @@ module ProcessorCore
              RD_MUX_BCU:    reg_data = {31'b0, branch_enable};
              RD_MUX_IMM:    reg_data = immediate;
             RD_MUX_PC_N:    reg_data = pc_next;
+             RD_MUX_MAC:    reg_data = mac_result;
                 default:    reg_data = {XLEN{1'bz}};
         endcase
     end
