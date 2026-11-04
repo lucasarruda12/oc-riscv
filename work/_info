@@ -11,9 +11,9 @@ cModel Technology
 d/home/lucas
 vArithmeticLogicUnit
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 DXx4 work 15 risc_v_32_i_pkg 0 22 P]8:[EKRAS01RaBdNJ[1K0
+Z1 DXx4 work 15 risc_v_32_i_pkg 0 22 EFMgiXH9=>fRg?CnUlL4c0
 DXx4 work 27 ArithmeticLogicUnit_sv_unit 0 22 oJ`e2MO<Wc;CR=OeQBhU[2
-Z2 !s110 1793744615
+Z2 !s110 1793749983
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 r1
 !s85 0
@@ -26,11 +26,11 @@ Z4 d/home/lucas/bcc1/oc/work-riscv - Copia
 Z5 w1793744466
 Z6 8/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ArithmeticLogicUnit.sv
 Z7 F/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ArithmeticLogicUnit.sv
-!i122 74
+!i122 106
 L0 15 26
 Z8 OV;L;2020.1;71
 31
-Z9 !s108 1793744615.000000
+Z9 !s108 1793749983.000000
 Z10 !s107 /home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ArithmeticLogicUnit.sv|
 Z11 !s90 -reportprogress|300|-work|work|-sv|/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ArithmeticLogicUnit.sv|
 !i113 1
@@ -53,7 +53,7 @@ R4
 R5
 R6
 R7
-!i122 74
+!i122 106
 Z14 L0 13 0
 R8
 31
@@ -81,7 +81,7 @@ R4
 Z15 w1789135866
 Z16 8/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ComparatorUnit.sv
 Z17 F/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ComparatorUnit.sv
-!i122 76
+!i122 108
 L0 16 21
 R8
 31
@@ -108,7 +108,7 @@ R4
 R15
 R16
 R17
-!i122 76
+!i122 108
 L0 14 0
 R8
 31
@@ -122,22 +122,22 @@ n@comparator@unit_sv_unit
 vCoreControlUnit
 R0
 R1
-DXx4 work 23 CoreControlUnit_sv_unit 0 22 AAQL`OM8Xi[IXMb;`^lSi3
+DXx4 work 23 CoreControlUnit_sv_unit 0 22 =1X_F8PVS^LhkV^]=Pf6K1
 R2
 R3
 r1
 !s85 0
 !i10b 1
-!s100 [TXCW4^nO;LfK?Xc0B0eY2
-IeWlLUFETZNFX6_4AUWVf;0
+!s100 B5g6eI<NQ4MC<`eC@1emZ0
+Ii[:1ln9?T?:?jcAkQ1Sik2
 !s105 CoreControlUnit_sv_unit
 S1
 R4
-Z20 w1793744567
+Z20 w1793749827
 Z21 8/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/CoreControlUnit.sv
 Z22 F/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/CoreControlUnit.sv
-!i122 78
-L0 13 396
+!i122 110
+L0 13 403
 R8
 31
 R9
@@ -151,19 +151,19 @@ XCoreControlUnit_sv_unit
 R0
 R1
 R2
-VAAQL`OM8Xi[IXMb;`^lSi3
+V=1X_F8PVS^LhkV^]=Pf6K1
 r1
 !s85 0
 !i10b 1
-!s100 UOj4<eScmfh?[JODR3QkZ2
-IAAQL`OM8Xi[IXMb;`^lSi3
+!s100 `GW>ok1?2RhGc72l786B<1
+I=1X_F8PVS^LhkV^]=Pf6K1
 !i103 1
 S1
 R4
 R20
 R21
 R22
-!i122 78
+!i122 110
 Z25 L0 11 0
 R8
 31
@@ -187,7 +187,7 @@ R4
 R15
 8/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/DataMemory.sv
 F/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/DataMemory.sv
-!i122 79
+!i122 111
 L0 12 29
 R8
 r1
@@ -204,7 +204,7 @@ vImmediateSignExtend
 R0
 R1
 DXx4 work 27 ImmediateSignExtend_sv_unit 0 22 m6f_^Q?nncSIn^DK?LAWQ3
-Z27 !s110 1793744616
+Z27 !s110 1793749984
 R3
 r1
 !s85 0
@@ -217,13 +217,13 @@ R4
 R15
 Z28 8/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ImmediateSignExtend.sv
 Z29 F/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ImmediateSignExtend.sv
-!i122 81
+!i122 113
 L0 14 20
 R8
 31
-Z30 !s108 1793744616.000000
-Z31 !s107 /home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ImmediateSignExtend.sv|
-Z32 !s90 -reportprogress|300|-work|work|-sv|/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ImmediateSignExtend.sv|
+R9
+Z30 !s107 /home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ImmediateSignExtend.sv|
+Z31 !s90 -reportprogress|300|-work|work|-sv|/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ImmediateSignExtend.sv|
 !i113 1
 R12
 R13
@@ -244,13 +244,13 @@ R4
 R15
 R28
 R29
-!i122 81
-Z33 L0 12 0
+!i122 113
+Z32 L0 12 0
 R8
 31
+R9
 R30
 R31
-R32
 !i113 1
 R12
 R13
@@ -268,13 +268,13 @@ R4
 w1789326651
 8/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/InstructionMemory.sv
 F/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/InstructionMemory.sv
-!i122 82
+!i122 114
 L0 12 19
 R8
 r1
 !s85 0
 31
-R30
+Z33 !s108 1793749984.000000
 !s107 /home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/InstructionMemory.sv|
 !s90 -reportprogress|300|-work|work|-sv|/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/InstructionMemory.sv|
 !i113 1
@@ -298,11 +298,11 @@ R4
 R15
 Z34 8/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/LoadStoreUnit.sv
 Z35 F/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/LoadStoreUnit.sv
-!i122 84
+!i122 116
 L0 14 49
 R8
 31
-R30
+R33
 Z36 !s107 /home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/LoadStoreUnit.sv|
 Z37 !s90 -reportprogress|300|-work|work|-sv|/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/LoadStoreUnit.sv|
 !i113 1
@@ -325,11 +325,11 @@ R4
 R15
 R34
 R35
-!i122 84
-R33
+!i122 116
+R32
 R8
 31
-R30
+R33
 R36
 R37
 !i113 1
@@ -339,27 +339,27 @@ n@load@store@unit_sv_unit
 vProcessorCore
 R0
 R1
-DXx4 work 21 ProcessorCore_sv_unit 0 22 ]ne8an;bZ8f8lOOE]CO]J1
+DXx4 work 21 ProcessorCore_sv_unit 0 22 iOVK7eHiDV1z4_ZIIeCDo0
 R27
 R3
 r1
 !s85 0
 !i10b 1
-!s100 k9ZM:NkaO:QM=hGDk1XcU0
-IK:l@fRJ;T5cLzh3UATLj_1
+!s100 W4>i<L5O_[_k5zF6:c9Nk1
+IPMzmiOz_^n<1kjNH?M5VL3
 !s105 ProcessorCore_sv_unit
 S1
 R4
-Z38 w1791987425
-Z39 8/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ProcessorCore.sv
-Z40 F/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ProcessorCore.sv
-!i122 86
-L0 14 178
+R20
+Z38 8/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ProcessorCore.sv
+Z39 F/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ProcessorCore.sv
+!i122 118
+L0 14 186
 R8
 31
-R30
-Z41 !s107 /home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ProcessorCore.sv|
-Z42 !s90 -reportprogress|300|-work|work|-sv|/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ProcessorCore.sv|
+R33
+Z40 !s107 /home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ProcessorCore.sv|
+Z41 !s90 -reportprogress|300|-work|work|-sv|/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/ProcessorCore.sv|
 !i113 1
 R12
 R13
@@ -368,25 +368,25 @@ XProcessorCore_sv_unit
 R0
 R1
 R27
-V]ne8an;bZ8f8lOOE]CO]J1
+ViOVK7eHiDV1z4_ZIIeCDo0
 r1
 !s85 0
 !i10b 1
-!s100 ]iC6NLDLAoB<4Zk3?0Va=0
-I]ne8an;bZ8f8lOOE]CO]J1
+!s100 jL@::a``P@M>B;=i0fQLK2
+IiOVK7eHiDV1z4_ZIIeCDo0
 !i103 1
 S1
 R4
+R20
 R38
 R39
-R40
-!i122 86
-R33
+!i122 118
+R32
 R8
 31
-R30
+R33
+R40
 R41
-R42
 !i113 1
 R12
 R13
@@ -395,22 +395,22 @@ vRegisterFile
 R0
 R27
 !i10b 1
-!s100 H;3UCFl0;0582T@d<hBEH1
+!s100 JYR8HJ8_Q3VM]NoUmTAB61
 R26
-IhWQ6ImYELm32We0JOGS;E1
+I299G>FVE0Eg_gY^DnH4^I1
 R3
 S1
 R4
-R15
+R20
 8/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/RegisterFile.sv
 F/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/RegisterFile.sv
-!i122 87
-L0 13 29
+!i122 119
+L0 13 32
 R8
 r1
 !s85 0
 31
-R30
+R33
 !s107 /home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/RegisterFile.sv|
 !s90 -reportprogress|300|-work|work|-sv|/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/RegisterFile.sv|
 !i113 1
@@ -421,22 +421,22 @@ Xrisc_v_32_i_pkg
 R0
 R27
 !i10b 1
-!s100 e5Z[S7cdbnZISjg8^0hUg3
+!s100 fMci[bEB@NM>8aek0NG]k3
 R26
-IP]8:[EKRAS01RaBdNJ[1K0
-VP]8:[EKRAS01RaBdNJ[1K0
+IEFMgiXH9=>fRg?CnUlL4c0
+VEFMgiXH9=>fRg?CnUlL4c0
 S1
 R4
-w1793744500
+R20
 8/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/risc_v_32_i_pkg.sv
 F/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/risc_v_32_i_pkg.sv
-!i122 88
+!i122 120
 R25
 R8
 r1
 !s85 0
 31
-R30
+R33
 !s107 /home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/risc_v_32_i_pkg.sv|
 !s90 -reportprogress|300|-work|work|-sv|/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/single_cycle_processor/risc_v_32_i_pkg.sv|
 !i113 1
@@ -456,16 +456,16 @@ I]joVc5n4aKz8nbf<J;BN10
 !s105 top_sv_unit
 S1
 R4
-Z43 w1792261918
-Z44 8/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/tb/top.sv
-Z45 F/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/tb/top.sv
-!i122 89
+Z42 w1792261918
+Z43 8/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/tb/top.sv
+Z44 F/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/tb/top.sv
+!i122 122
 L0 15 270
 R8
 31
-R30
+R33
 !s107 /home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/tb/top.sv|
-Z46 !s90 -reportprogress|300|-work|work|-sv|/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/tb/top.sv|
+Z45 !s90 -reportprogress|300|-work|work|-sv|/home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/tb/top.sv|
 !i113 1
 R12
 R13
@@ -482,16 +482,16 @@ IkfnNFZ16liGlDm_ATSz:O0
 !i103 1
 S1
 R4
+R42
 R43
 R44
-R45
-!i122 89
+!i122 122
 R14
 R8
 31
-R30
-Z47 !s107 /home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/tb/top.sv|
-R46
+R33
+Z46 !s107 /home/lucas/bcc1/oc/work-riscv - Copia/RV32I-main/tb/top.sv|
+R45
 !i113 1
 R12
 R13
