@@ -21,8 +21,3 @@ addi x2, x0, 4    //  -> x2 = 4
 addi x3, x0, 10   //  -> x3 = 10
 mac  x3, x1, x2   //  -> x3 = 10 + 3*4  = 22
 mac  x3, x1, x2   //  -> x3 = 22 + 3*4  = 34  (acumula)
-addi x5, x0, -2   //  -> x5 = -2
-mac  x3, x5, x2   //  -> x3 = 34 + -2*4 = 26  (negativo)
-mac  x0, x1, x2   //  -> x0 continua 0
-addi x6, x0, 0    //  -> x6 = 0  (prova que x0 continua 0)
-mac  x1, x1, x1   //  -> x1 = 3 + 3*3   = 12  (mesmo reg. nos 3 campos)
